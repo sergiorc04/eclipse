@@ -1,0 +1,84 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox",
+    "Family": "Virtual Machine"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "2",
+    "Threads": "1",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "60",
+    "Stepping": "3",
+    "Name": "Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz",
+    "Hypervisor": "KVM",
+    "VirtualizationType": "full"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 3.9,
+  "Disks": [
+    21.5
+  ],
+  "Partitions": [
+    20.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "1920x937",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "es_ES",
+  "Timezone": "Europe/Madrid",
+  "Install": {
+    "Media": "Ubuntu 18.04.6 LTS \"Bionic Beaver\" - Release amd64 (20210915)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "es",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "5": "language",
+      "17": "console_setup",
+      "24": "language",
+      "37": "console_setup",
+      "47": "console_setup",
+      "53": "console_setup",
+      "57": "console_setup",
+      "65": "console_setup",
+      "74": "prepare",
+      "82": "partman",
+      "84": "start_install",
+      "100": "timezone",
+      "107": "usersetup",
+      "128": "user_done",
+      "927": "done"
+    }
+  }
+}
