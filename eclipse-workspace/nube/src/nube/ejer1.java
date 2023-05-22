@@ -6,7 +6,7 @@ public class ejer1 {
 	{
 
 		for (int j = 7; j > 0; j--) {
-			for (int i = 0; i < j; i++) {
+			for (int i = 2; i < j; i++) {
 				System.out.print("*");
 			}
 			System.out.println();
